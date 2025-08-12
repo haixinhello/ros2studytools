@@ -1,0 +1,4 @@
+<launch>
+    <let name="bg_r" value="50"/>
+    <include file="$(find-pkg-share cpp01_launch)/launch/xml/xml04_args_launch.xml"/>
+</launch>
