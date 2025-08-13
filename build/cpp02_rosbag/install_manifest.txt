@@ -1,0 +1,17 @@
+/home/haixin/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer
+/home/haixin/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake
+/home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml

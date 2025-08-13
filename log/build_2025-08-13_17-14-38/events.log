@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000615] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000824] (cpp02_rosbag) JobQueued: {'identifier': 'cpp02_rosbag', 'dependencies': OrderedDict()}
+[0.001027] (cpp02_rosbag) JobStarted: {'identifier': 'cpp02_rosbag'}
+[0.020379] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'cmake'}
+[0.023126] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'build'}
+[0.024127] (cpp02_rosbag) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/haixin/ws02_tools/build/cpp02_rosbag', '--', '-j4', '-l4'], 'cwd': '/home/haixin/ws02_tools/build/cpp02_rosbag', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'haixin', 'SSH_CLIENT': '192.168.100.101 51840 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh', 'HOME': '/home/haixin', 'OLDPWD': '/home/haixin/ws02_tools/build', 'TERM_PROGRAM_VERSION': '1.100.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b60b0016-0b42-4473-b834-62efb45bc863.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/haixin/ws02_tools/install:/home/haixin/ws01_plumbing/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'haixin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/home/haixin/scripts:/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/home/haixin/.local/bin:/opt/ros/jazzy/bin:/home/haixin/scripts:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f812374e18.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/haixin/ws02_tools/install/cpp02_rosbag:/home/haixin/ws02_tools/install/cpp01_launch:/home/haixin/ws01_plumbing/install/tutorails_plumbing:/home/haixin/ws01_plumbing/install/cpp07_exercise:/home/haixin/ws01_plumbing/install/cpp06_time:/home/haixin/ws01_plumbing/install/cpp05_names:/home/haixin/ws01_plumbing/install/cpp04_param:/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/haixin/ws02_tools/build/cpp02_rosbag', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.101 51840 192.168.100.102 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/haixin/ws02_tools/install/cpp02_rosbag:/home/haixin/ws02_tools/install/cpp01_launch:/home/haixin/ws01_plumbing/install/tutorails_plumbing:/home/haixin/ws01_plumbing/install/cpp07_exercise:/home/haixin/ws01_plumbing/install/cpp06_time:/home/haixin/ws01_plumbing/install/cpp05_names:/home/haixin/ws01_plumbing/install/cpp04_param:/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.099606] (-) TimerEvent: {}
+[0.200473] (-) TimerEvent: {}
+[0.274235] (cpp02_rosbag) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.300605] (-) TimerEvent: {}
+[0.401040] (-) TimerEvent: {}
+[0.501406] (-) TimerEvent: {}
+[0.601789] (-) TimerEvent: {}
+[0.661728] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.701901] (-) TimerEvent: {}
+[0.725023] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.745201] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.774220] (cpp02_rosbag) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.802000] (-) TimerEvent: {}
+[0.804847] (cpp02_rosbag) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902110] (-) TimerEvent: {}
+[0.940378] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.946424] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002229] (-) TimerEvent: {}
+[1.071179] (cpp02_rosbag) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.102330] (-) TimerEvent: {}
+[1.196704] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.26.7 (/opt/ros/jazzy/share/rosbag2_cpp/cmake)\n'}
+[1.202407] (-) TimerEvent: {}
+[1.236025] (cpp02_rosbag) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[1.240710] (cpp02_rosbag) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.302536] (-) TimerEvent: {}
+[1.310016] (cpp02_rosbag) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.402641] (-) TimerEvent: {}
+[1.488317] (cpp02_rosbag) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.488865] (cpp02_rosbag) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/haixin/ws02_tools/src/cpp02_rosbag/include>\n'}
+[1.489030] (cpp02_rosbag) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.490565] (cpp02_rosbag) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.492747] (cpp02_rosbag) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.492922] (cpp02_rosbag) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.493671] (cpp02_rosbag) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.497282] (cpp02_rosbag) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.502710] (-) TimerEvent: {}
+[1.554292] (cpp02_rosbag) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.574733] (cpp02_rosbag) StdoutLine: {'line': b'-- Build files have been written to: /home/haixin/ws02_tools/build/cpp02_rosbag\n'}
+[1.602830] (-) TimerEvent: {}
+[1.640750] (cpp02_rosbag) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo02_reader.dir/src/demo02_reader.cpp.o\x1b[0m\n'}
+[1.641175] (cpp02_rosbag) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o\x1b[0m\n'}
+[1.702948] (-) TimerEvent: {}
+[1.803811] (-) TimerEvent: {}
+[1.904294] (-) TimerEvent: {}
+[2.005011] (-) TimerEvent: {}
+[2.106386] (-) TimerEvent: {}
+[2.206859] (-) TimerEvent: {}
+[2.307305] (-) TimerEvent: {}
+[2.407737] (-) TimerEvent: {}
+[2.508171] (-) TimerEvent: {}
+[2.608602] (-) TimerEvent: {}
+[2.709055] (-) TimerEvent: {}
+[2.809443] (-) TimerEvent: {}
+[2.909892] (-) TimerEvent: {}
+[3.010321] (-) TimerEvent: {}
+[3.110774] (-) TimerEvent: {}
+[3.211195] (-) TimerEvent: {}
+[3.311603] (-) TimerEvent: {}
+[3.412076] (-) TimerEvent: {}
+[3.512529] (-) TimerEvent: {}
+[3.612983] (-) TimerEvent: {}
+[3.713408] (-) TimerEvent: {}
+[3.813805] (-) TimerEvent: {}
+[3.914235] (-) TimerEvent: {}
+[4.014652] (-) TimerEvent: {}
+[4.115081] (-) TimerEvent: {}
+[4.215536] (-) TimerEvent: {}
+[4.316013] (-) TimerEvent: {}
+[4.416485] (-) TimerEvent: {}
+[4.516958] (-) TimerEvent: {}
+[4.617390] (-) TimerEvent: {}
+[4.717782] (-) TimerEvent: {}
+[4.818230] (-) TimerEvent: {}
+[4.918771] (-) TimerEvent: {}
+[5.019270] (-) TimerEvent: {}
+[5.119733] (-) TimerEvent: {}
+[5.220183] (-) TimerEvent: {}
+[5.320931] (-) TimerEvent: {}
+[5.421859] (-) TimerEvent: {}
+[5.522803] (-) TimerEvent: {}
+[5.623236] (-) TimerEvent: {}
+[5.723735] (-) TimerEvent: {}
+[5.824151] (-) TimerEvent: {}
+[5.924574] (-) TimerEvent: {}
+[6.025009] (-) TimerEvent: {}
+[6.125491] (-) TimerEvent: {}
+[6.225914] (-) TimerEvent: {}
+[6.326392] (-) TimerEvent: {}
+[6.426860] (-) TimerEvent: {}
+[6.527324] (-) TimerEvent: {}
+[6.622193] (cpp02_rosbag) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo02_reader\x1b[0m\n'}
+[6.627455] (-) TimerEvent: {}
+[6.717120] (cpp02_rosbag) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_writer\x1b[0m\n'}
+[6.727569] (-) TimerEvent: {}
+[6.828030] (-) TimerEvent: {}
+[6.928508] (-) TimerEvent: {}
+[7.029397] (-) TimerEvent: {}
+[7.130819] (-) TimerEvent: {}
+[7.219605] (cpp02_rosbag) StdoutLine: {'line': b'[100%] Built target demo02_reader\n'}
+[7.221242] (cpp02_rosbag) StdoutLine: {'line': b'[100%] Built target demo01_writer\n'}
+[7.230937] (-) TimerEvent: {}
+[7.241997] (cpp02_rosbag) CommandEnded: {'returncode': 0}
+[7.242784] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'install'}
+[7.259180] (cpp02_rosbag) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/haixin/ws02_tools/build/cpp02_rosbag'], 'cwd': '/home/haixin/ws02_tools/build/cpp02_rosbag', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'haixin', 'SSH_CLIENT': '192.168.100.101 51840 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh', 'HOME': '/home/haixin', 'OLDPWD': '/home/haixin/ws02_tools/build', 'TERM_PROGRAM_VERSION': '1.100.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b60b0016-0b42-4473-b834-62efb45bc863.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/haixin/ws02_tools/install:/home/haixin/ws01_plumbing/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'haixin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/home/haixin/scripts:/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/home/haixin/.local/bin:/opt/ros/jazzy/bin:/home/haixin/scripts:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f812374e18.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/haixin/ws02_tools/install/cpp02_rosbag:/home/haixin/ws02_tools/install/cpp01_launch:/home/haixin/ws01_plumbing/install/tutorails_plumbing:/home/haixin/ws01_plumbing/install/cpp07_exercise:/home/haixin/ws01_plumbing/install/cpp06_time:/home/haixin/ws01_plumbing/install/cpp05_names:/home/haixin/ws01_plumbing/install/cpp04_param:/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/haixin/ws02_tools/build/cpp02_rosbag', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.101 51840 192.168.100.102 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/haixin/ws02_tools/install/cpp02_rosbag:/home/haixin/ws02_tools/install/cpp01_launch:/home/haixin/ws01_plumbing/install/tutorails_plumbing:/home/haixin/ws01_plumbing/install/cpp07_exercise:/home/haixin/ws01_plumbing/install/cpp06_time:/home/haixin/ws01_plumbing/install/cpp05_names:/home/haixin/ws01_plumbing/install/cpp04_param:/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy'}), 'shell': False}
+[7.273574] (cpp02_rosbag) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.275495] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/haixin/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer\n'}
+[7.276321] (cpp02_rosbag) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/haixin/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer" to ""\n'}
+[7.276471] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/haixin/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader\n'}
+[7.277169] (cpp02_rosbag) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/haixin/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader" to ""\n'}
+[7.277367] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag\n'}
+[7.277469] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/haixin/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag\n'}
+[7.277576] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh\n'}
+[7.277720] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv\n'}
+[7.277871] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh\n'}
+[7.278010] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv\n'}
+[7.278176] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash\n'}
+[7.278271] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh\n'}
+[7.278357] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh\n'}
+[7.278440] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv\n'}
+[7.278522] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv\n'}
+[7.278604] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag\n'}
+[7.278694] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake\n'}
+[7.278794] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake\n'}
+[7.278888] (cpp02_rosbag) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml\n'}
+[7.281027] (cpp02_rosbag) CommandEnded: {'returncode': 0}
+[7.325002] (cpp02_rosbag) JobEnded: {'identifier': 'cpp02_rosbag', 'rc': 0}
+[7.326145] (-) EventReactorShutdown: {}

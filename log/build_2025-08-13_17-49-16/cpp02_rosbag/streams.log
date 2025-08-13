@@ -1,0 +1,27 @@
+[0.018s] Invoking command in '/home/haixin/ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws02_tools/build/cpp02_rosbag -- -j4 -l4
+[0.143s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o[0m
+[0.154s] [ 75%] Built target demo02_reader
+[12.566s] [100%] [32m[1mLinking CXX executable demo01_writer[0m
+[13.341s] [100%] Built target demo01_writer
+[13.363s] Invoked command in '/home/haixin/ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws02_tools/build/cpp02_rosbag -- -j4 -l4
+[13.381s] Invoking command in '/home/haixin/ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws02_tools/build/cpp02_rosbag
+[13.393s] -- Install configuration: ""
+[13.395s] -- Installing: /home/haixin/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer
+[13.404s] -- Set non-toolchain portion of runtime path of "/home/haixin/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer" to ""
+[13.405s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader
+[13.405s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag
+[13.405s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag
+[13.405s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh
+[13.405s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv
+[13.406s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh
+[13.406s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv
+[13.406s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash
+[13.406s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh
+[13.406s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh
+[13.406s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv
+[13.406s] -- Installing: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv
+[13.406s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag
+[13.406s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake
+[13.407s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake
+[13.407s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml
+[13.409s] Invoked command in '/home/haixin/ws02_tools/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws02_tools/build/cpp02_rosbag

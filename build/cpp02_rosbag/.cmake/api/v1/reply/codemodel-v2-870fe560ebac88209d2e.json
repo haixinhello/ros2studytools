@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c4a057db4c710891afa0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp02_rosbag",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp02_rosbag_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp02_rosbag_uninstall-b8817cb98156ff41fe71.json",
+					"name" : "cpp02_rosbag_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_writer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_writer-bf0d0152a7f1f300dfc3.json",
+					"name" : "demo01_writer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo02_reader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo02_reader-074661006fe7a2b6184a.json",
+					"name" : "demo02_reader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5d3cfe0ee17ad4c563f6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/haixin/ws02_tools/build/cpp02_rosbag",
+		"source" : "/home/haixin/ws02_tools/src/cpp02_rosbag"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
