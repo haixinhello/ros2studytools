@@ -1,0 +1,50 @@
+[0.017s] Invoking command in '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws02_tools/src/cpp03_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/haixin/ws02_tools/install/cpp03_tf_broadcaster
+[0.039s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.414s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.448s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.462s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.583s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.585s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.676s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.758s] -- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+[0.802s] -- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.941s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.970s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.135s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.135s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/haixin/ws02_tools/src/cpp03_tf_broadcaster/include>
+[1.136s] -- Configured cppcheck exclude dirs and/or files: 
+[1.136s] -- Added test 'lint_cmake' to check CMake code style
+[1.137s] -- Added test 'uncrustify' to check C / C++ code style
+[1.137s] -- Configured uncrustify additional arguments: 
+[1.138s] -- Added test 'xmllint' to check XML markup files
+[1.139s] -- Configuring done (1.1s)
+[1.171s] -- Generating done (0.0s)
+[1.191s] -- Build files have been written to: /home/haixin/ws02_tools/build/cpp03_tf_broadcaster
+[1.208s] Invoked command in '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws02_tools/src/cpp03_tf_broadcaster -DCMAKE_INSTALL_PREFIX=/home/haixin/ws02_tools/install/cpp03_tf_broadcaster
+[1.211s] Invoking command in '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws02_tools/build/cpp03_tf_broadcaster -- -j4 -l4
+[1.312s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_static_tf_broadcaster.dir/src/demo01_static_tf_broadcaster.cpp.o[0m
+[7.484s] [100%] [32m[1mLinking CXX executable demo01_static_tf_broadcaster[0m
+[7.865s] [100%] Built target demo01_static_tf_broadcaster
+[7.887s] Invoked command in '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws02_tools/build/cpp03_tf_broadcaster -- -j4 -l4
+[7.904s] Invoking command in '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws02_tools/build/cpp03_tf_broadcaster
+[7.917s] -- Install configuration: ""
+[7.917s] -- Installing: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster
+[7.920s] -- Set non-toolchain portion of runtime path of "/home/haixin/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster" to ""
+[7.920s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp03_tf_broadcaster
+[7.920s] -- Installing: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp03_tf_broadcaster
+[7.920s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.sh
+[7.921s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.dsv
+[7.921s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.sh
+[7.921s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.dsv
+[7.921s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.bash
+[7.921s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.sh
+[7.921s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.zsh
+[7.921s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.dsv
+[7.922s] -- Installing: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.dsv
+[7.922s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/packages/cpp03_tf_broadcaster
+[7.922s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig.cmake
+[7.922s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig-version.cmake
+[7.922s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.xml
+[7.925s] Invoked command in '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws02_tools/build/cpp03_tf_broadcaster
