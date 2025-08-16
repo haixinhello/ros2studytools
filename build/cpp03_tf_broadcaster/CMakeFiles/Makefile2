@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/haixin/ws02_tools/build/cpp03_tf_broadcaster
 
 # The main recursive "all" target.
 all: CMakeFiles/demo01_static_tf_broadcaster.dir/all
+all: CMakeFiles/demo02_dynamic_tf_broadcaster.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cpp03_tf_broadcaster_uninstall.dir/clean
 clean: CMakeFiles/demo01_static_tf_broadcaster.dir/clean
+clean: CMakeFiles/demo02_dynamic_tf_broadcaster.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ demo01_static_tf_broadcaster: CMakeFiles/demo01_static_tf_broadcaster.dir/rule
 CMakeFiles/demo01_static_tf_broadcaster.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_static_tf_broadcaster.dir/build.make CMakeFiles/demo01_static_tf_broadcaster.dir/clean
 .PHONY : CMakeFiles/demo01_static_tf_broadcaster.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/demo02_dynamic_tf_broadcaster.dir
+
+# All Build rule for target.
+CMakeFiles/demo02_dynamic_tf_broadcaster.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_dynamic_tf_broadcaster.dir/build.make CMakeFiles/demo02_dynamic_tf_broadcaster.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_dynamic_tf_broadcaster.dir/build.make CMakeFiles/demo02_dynamic_tf_broadcaster.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/haixin/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles --progress-num=3,4 "Built target demo02_dynamic_tf_broadcaster"
+.PHONY : CMakeFiles/demo02_dynamic_tf_broadcaster.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/demo02_dynamic_tf_broadcaster.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haixin/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/demo02_dynamic_tf_broadcaster.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haixin/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles 0
+.PHONY : CMakeFiles/demo02_dynamic_tf_broadcaster.dir/rule
+
+# Convenience name for target.
+demo02_dynamic_tf_broadcaster: CMakeFiles/demo02_dynamic_tf_broadcaster.dir/rule
+.PHONY : demo02_dynamic_tf_broadcaster
+
+# clean rule for target.
+CMakeFiles/demo02_dynamic_tf_broadcaster.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_dynamic_tf_broadcaster.dir/build.make CMakeFiles/demo02_dynamic_tf_broadcaster.dir/clean
+.PHONY : CMakeFiles/demo02_dynamic_tf_broadcaster.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
