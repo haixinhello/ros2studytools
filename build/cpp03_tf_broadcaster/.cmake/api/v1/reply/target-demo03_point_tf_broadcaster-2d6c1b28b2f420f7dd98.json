@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "demo02_dynamic_tf_broadcaster"
+			"path" : "demo03_point_tf_broadcaster"
 		}
 	],
 	"backtrace" : 1,
@@ -85,19 +85,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 40,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 31,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
@@ -996,7 +996,7 @@
 			]
 		}
 	],
-	"id" : "demo02_dynamic_tf_broadcaster::@6890427a1f51a3e7e1df",
+	"id" : "demo03_point_tf_broadcaster::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -1650,8 +1650,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "demo02_dynamic_tf_broadcaster",
-	"nameOnDisk" : "demo02_dynamic_tf_broadcaster",
+	"name" : "demo03_point_tf_broadcaster",
+	"nameOnDisk" : "demo03_point_tf_broadcaster",
 	"paths" : 
 	{
 		"build" : ".",
@@ -1672,7 +1672,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/demo02_dynamic_tf_broadcaster.cpp",
+			"path" : "src/demo03_point_tf_broadcaster.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

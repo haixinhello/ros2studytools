@@ -2,6 +2,7 @@
 /home/haixin/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/cpp03_tf_broadcaster_uninstall.dir
 /home/haixin/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/demo01_static_tf_broadcaster.dir
 /home/haixin/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/demo02_dynamic_tf_broadcaster.dir
+/home/haixin/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/demo03_point_tf_broadcaster.dir
 /home/haixin/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/test.dir
 /home/haixin/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/edit_cache.dir
 /home/haixin/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000392] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000723] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.000903] (cpp03_tf_broadcaster) JobQueued: {'identifier': 'cpp03_tf_broadcaster', 'dependencies': OrderedDict()}
+[0.001145] (cpp03_tf_broadcaster) JobStarted: {'identifier': 'cpp03_tf_broadcaster'}
+[0.022456] (cpp03_tf_broadcaster) JobProgress: {'identifier': 'cpp03_tf_broadcaster', 'progress': 'cmake'}
+[0.025410] (cpp03_tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '/home/haixin/ws02_tools/src/cpp03_tf_broadcaster', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_INSTALL_PREFIX=/home/haixin/ws02_tools/install/cpp03_tf_broadcaster'], 'cwd': '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'haixin', 'SSH_CLIENT': '192.168.100.102 49947 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh', 'HOME': '/home/haixin', 'OLDPWD': '/home/haixin', 'TERM_PROGRAM_VERSION': '1.100.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a17069fb-cd57-4f2d-8b4c-42c23e1f627a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/haixin/ws02_tools/install:/home/haixin/ws01_plumbing/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'haixin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/home/haixin/scripts:/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/home/haixin/.local/bin:/opt/ros/jazzy/bin:/home/haixin/scripts:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ebb2aed144.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/haixin/ws02_tools/install/cpp03_tf_broadcaster:/home/haixin/ws02_tools/install/cpp02_rosbag:/home/haixin/ws02_tools/install/cpp01_launch:/home/haixin/ws01_plumbing/install/tutorails_plumbing:/home/haixin/ws01_plumbing/install/cpp07_exercise:/home/haixin/ws01_plumbing/install/cpp06_time:/home/haixin/ws01_plumbing/install/cpp05_names:/home/haixin/ws01_plumbing/install/cpp04_param:/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.102 49947 192.168.100.103 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/haixin/ws02_tools/install/cpp03_tf_broadcaster:/home/haixin/ws02_tools/install/cpp02_rosbag:/home/haixin/ws02_tools/install/cpp01_launch:/home/haixin/ws01_plumbing/install/tutorails_plumbing:/home/haixin/ws01_plumbing/install/cpp07_exercise:/home/haixin/ws01_plumbing/install/cpp06_time:/home/haixin/ws01_plumbing/install/cpp05_names:/home/haixin/ws01_plumbing/install/cpp04_param:/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.099693] (-) TimerEvent: {}
+[0.200126] (-) TimerEvent: {}
+[0.300625] (-) TimerEvent: {}
+[0.317360] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400731] (-) TimerEvent: {}
+[0.501088] (-) TimerEvent: {}
+[0.601450] (-) TimerEvent: {}
+[0.701812] (-) TimerEvent: {}
+[0.751278] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.801943] (-) TimerEvent: {}
+[0.839166] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.866542] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.902054] (-) TimerEvent: {}
+[0.908783] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.948946] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.002188] (-) TimerEvent: {}
+[1.102623] (-) TimerEvent: {}
+[1.118073] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.126977] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.202737] (-) TimerEvent: {}
+[1.280150] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.302815] (-) TimerEvent: {}
+[1.403135] (-) TimerEvent: {}
+[1.443788] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.503251] (-) TimerEvent: {}
+[1.534817] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.603377] (-) TimerEvent: {}
+[1.703731] (-) TimerEvent: {}
+[1.784750] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)\n'}
+[1.803838] (-) TimerEvent: {}
+[1.843705] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.903941] (-) TimerEvent: {}
+[2.004306] (-) TimerEvent: {}
+[2.036822] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.037299] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/haixin/ws02_tools/src/cpp03_tf_broadcaster/include>\n'}
+[2.037496] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.039594] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.042277] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.042494] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.043485] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.048756] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[2.104412] (-) TimerEvent: {}
+[2.127744] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.156051] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Build files have been written to: /home/haixin/ws02_tools/build/cpp03_tf_broadcaster\n'}
+[2.182533] (cpp03_tf_broadcaster) CommandEnded: {'returncode': 0}
+[2.183421] (cpp03_tf_broadcaster) JobProgress: {'identifier': 'cpp03_tf_broadcaster', 'progress': 'build'}
+[2.185234] (cpp03_tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster', '--', '-j4', '-l4'], 'cwd': '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'haixin', 'SSH_CLIENT': '192.168.100.102 49947 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh', 'HOME': '/home/haixin', 'OLDPWD': '/home/haixin', 'TERM_PROGRAM_VERSION': '1.100.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a17069fb-cd57-4f2d-8b4c-42c23e1f627a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/haixin/ws02_tools/install:/home/haixin/ws01_plumbing/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'haixin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/home/haixin/scripts:/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/home/haixin/.local/bin:/opt/ros/jazzy/bin:/home/haixin/scripts:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ebb2aed144.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/haixin/ws02_tools/install/cpp03_tf_broadcaster:/home/haixin/ws02_tools/install/cpp02_rosbag:/home/haixin/ws02_tools/install/cpp01_launch:/home/haixin/ws01_plumbing/install/tutorails_plumbing:/home/haixin/ws01_plumbing/install/cpp07_exercise:/home/haixin/ws01_plumbing/install/cpp06_time:/home/haixin/ws01_plumbing/install/cpp05_names:/home/haixin/ws01_plumbing/install/cpp04_param:/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.102 49947 192.168.100.103 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/haixin/ws02_tools/install/cpp03_tf_broadcaster:/home/haixin/ws02_tools/install/cpp02_rosbag:/home/haixin/ws02_tools/install/cpp01_launch:/home/haixin/ws01_plumbing/install/tutorails_plumbing:/home/haixin/ws01_plumbing/install/cpp07_exercise:/home/haixin/ws01_plumbing/install/cpp06_time:/home/haixin/ws01_plumbing/install/cpp05_names:/home/haixin/ws01_plumbing/install/cpp04_param:/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy'}), 'shell': False}
+[2.204524] (-) TimerEvent: {}
+[2.278516] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/demo03_point_tf_broadcaster.dir/src/demo03_point_tf_broadcaster.cpp.o\x1b[0m\n'}
+[2.298619] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[ 50%] Built target demo01_static_tf_broadcaster\n'}
+[2.304646] (-) TimerEvent: {}
+[2.304923] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[ 83%] Built target demo02_dynamic_tf_broadcaster\n'}
+[2.404762] (-) TimerEvent: {}
+[2.505111] (-) TimerEvent: {}
+[2.605506] (-) TimerEvent: {}
+[2.705895] (-) TimerEvent: {}
+[2.806274] (-) TimerEvent: {}
+[2.906673] (-) TimerEvent: {}
+[3.007064] (-) TimerEvent: {}
+[3.107464] (-) TimerEvent: {}
+[3.207880] (-) TimerEvent: {}
+[3.308308] (-) TimerEvent: {}
+[3.408739] (-) TimerEvent: {}
+[3.509160] (-) TimerEvent: {}
+[3.609565] (-) TimerEvent: {}
+[3.709960] (-) TimerEvent: {}
+[3.810363] (-) TimerEvent: {}
+[3.910754] (-) TimerEvent: {}
+[4.011147] (-) TimerEvent: {}
+[4.111562] (-) TimerEvent: {}
+[4.211951] (-) TimerEvent: {}
+[4.312356] (-) TimerEvent: {}
+[4.412753] (-) TimerEvent: {}
+[4.513149] (-) TimerEvent: {}
+[4.613552] (-) TimerEvent: {}
+[4.713939] (-) TimerEvent: {}
+[4.814339] (-) TimerEvent: {}
+[4.914739] (-) TimerEvent: {}
+[5.015130] (-) TimerEvent: {}
+[5.115548] (-) TimerEvent: {}
+[5.215949] (-) TimerEvent: {}
+[5.316366] (-) TimerEvent: {}
+[5.416731] (-) TimerEvent: {}
+[5.517100] (-) TimerEvent: {}
+[5.617484] (-) TimerEvent: {}
+[5.717867] (-) TimerEvent: {}
+[5.818264] (-) TimerEvent: {}
+[5.918670] (-) TimerEvent: {}
+[6.019082] (-) TimerEvent: {}
+[6.119599] (-) TimerEvent: {}
+[6.220077] (-) TimerEvent: {}
+[6.320481] (-) TimerEvent: {}
+[6.420861] (-) TimerEvent: {}
+[6.521237] (-) TimerEvent: {}
+[6.621632] (-) TimerEvent: {}
+[6.722037] (-) TimerEvent: {}
+[6.822426] (-) TimerEvent: {}
+[6.922810] (-) TimerEvent: {}
+[7.023211] (-) TimerEvent: {}
+[7.123623] (-) TimerEvent: {}
+[7.224015] (-) TimerEvent: {}
+[7.278838] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo03_point_tf_broadcaster\x1b[0m\n'}
+[7.324162] (-) TimerEvent: {}
+[7.424562] (-) TimerEvent: {}
+[7.525004] (-) TimerEvent: {}
+[7.625394] (-) TimerEvent: {}
+[7.725833] (-) TimerEvent: {}
+[7.826381] (-) TimerEvent: {}
+[7.849993] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[100%] Built target demo03_point_tf_broadcaster\n'}
+[7.870371] (cpp03_tf_broadcaster) CommandEnded: {'returncode': 0}
+[7.871157] (cpp03_tf_broadcaster) JobProgress: {'identifier': 'cpp03_tf_broadcaster', 'progress': 'install'}
+[7.886533] (cpp03_tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster'], 'cwd': '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'haixin', 'SSH_CLIENT': '192.168.100.102 49947 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh', 'HOME': '/home/haixin', 'OLDPWD': '/home/haixin', 'TERM_PROGRAM_VERSION': '1.100.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a17069fb-cd57-4f2d-8b4c-42c23e1f627a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/haixin/ws02_tools/install:/home/haixin/ws01_plumbing/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'haixin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/home/haixin/scripts:/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/home/haixin/.local/bin:/opt/ros/jazzy/bin:/home/haixin/scripts:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ebb2aed144.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/haixin/ws02_tools/install/cpp03_tf_broadcaster:/home/haixin/ws02_tools/install/cpp02_rosbag:/home/haixin/ws02_tools/install/cpp01_launch:/home/haixin/ws01_plumbing/install/tutorails_plumbing:/home/haixin/ws01_plumbing/install/cpp07_exercise:/home/haixin/ws01_plumbing/install/cpp06_time:/home/haixin/ws01_plumbing/install/cpp05_names:/home/haixin/ws01_plumbing/install/cpp04_param:/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/haixin/ws02_tools/build/cpp03_tf_broadcaster', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.102 49947 192.168.100.103 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/haixin/ws02_tools/install/cpp03_tf_broadcaster:/home/haixin/ws02_tools/install/cpp02_rosbag:/home/haixin/ws02_tools/install/cpp01_launch:/home/haixin/ws01_plumbing/install/tutorails_plumbing:/home/haixin/ws01_plumbing/install/cpp07_exercise:/home/haixin/ws01_plumbing/install/cpp06_time:/home/haixin/ws01_plumbing/install/cpp05_names:/home/haixin/ws01_plumbing/install/cpp04_param:/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy'}), 'shell': False}
+[7.901986] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.903949] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster\n'}
+[7.905772] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo02_dynamic_tf_broadcaster\n'}
+[7.906148] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo03_point_tf_broadcaster\n'}
+[7.906974] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/haixin/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo03_point_tf_broadcaster" to ""\n'}
+[7.907149] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp03_tf_broadcaster\n'}
+[7.907276] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp03_tf_broadcaster\n'}
+[7.907454] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.sh\n'}
+[7.907604] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.dsv\n'}
+[7.907720] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.sh\n'}
+[7.907812] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.dsv\n'}
+[7.907903] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.bash\n'}
+[7.908001] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.sh\n'}
+[7.908093] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.zsh\n'}
+[7.908189] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.dsv\n'}
+[7.908286] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.dsv\n'}
+[7.908435] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/packages/cpp03_tf_broadcaster\n'}
+[7.908528] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig.cmake\n'}
+[7.908617] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig-version.cmake\n'}
+[7.908729] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.xml\n'}
+[7.911058] (cpp03_tf_broadcaster) CommandEnded: {'returncode': 0}
+[7.926559] (-) TimerEvent: {}
+[7.957822] (cpp03_tf_broadcaster) JobEnded: {'identifier': 'cpp03_tf_broadcaster', 'rc': 0}
+[7.958936] (-) EventReactorShutdown: {}

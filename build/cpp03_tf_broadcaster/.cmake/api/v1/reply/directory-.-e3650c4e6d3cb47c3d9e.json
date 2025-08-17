@@ -36,13 +36,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 40,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 57,
+				"line" : 67,
 				"parent" : 0
 			},
 			{
@@ -265,6 +265,29 @@
 			{
 				"id" : "demo02_dynamic_tf_broadcaster::@6890427a1f51a3e7e1df",
 				"index" : 2
+			},
+			"destination" : "lib/cpp03_tf_broadcaster",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cpp03_tf_broadcaster",
+			"paths" : 
+			[
+				"demo03_point_tf_broadcaster"
+			],
+			"targetId" : "demo03_point_tf_broadcaster::@6890427a1f51a3e7e1df",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "demo03_point_tf_broadcaster::@6890427a1f51a3e7e1df",
+				"index" : 3
 			},
 			"destination" : "lib/cpp03_tf_broadcaster",
 			"type" : "cxxModuleBmi"
