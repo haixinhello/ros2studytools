@@ -15,6 +15,14 @@ CMakeFiles/demo03_point_tf_broadcaster.dir/src/demo03_point_tf_broadcaster.cpp.o
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__type_support.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp
  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp
  /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp
@@ -391,6 +399,8 @@ CMakeFiles/demo03_point_tf_broadcaster.dir/src/demo03_point_tf_broadcaster.cpp.o
  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp
  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp
  /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
+ /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
  /opt/ros/jazzy/include/tracetools/tracetools/config.h
  /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h
  /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp

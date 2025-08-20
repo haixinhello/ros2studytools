@@ -19,6 +19,7 @@ private:
         ps.point.x=x;
         ps.point.y=0.0;
         ps.point.z=-0.1;
+        point_pub_->publish(ps);
     }
     rclcpp::Publisher<geometry_msgs::msg::PointStamped>::SharedPtr point_pub_;
     rclcpp::TimerBase::SharedPtr timer_;

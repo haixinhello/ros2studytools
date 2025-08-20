@@ -1,0 +1,54 @@
+[0.017s] Invoking command in '/home/haixin/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws02_tools/src/cpp04_tf_listener -DCMAKE_INSTALL_PREFIX=/home/haixin/ws02_tools/install/cpp04_tf_listener
+[0.039s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.461s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.497s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.512s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.549s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.632s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.635s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.724s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.805s] -- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+[0.849s] -- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.988s] -- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.993s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.995s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.005s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.160s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.160s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/haixin/ws02_tools/src/cpp04_tf_listener/include>
+[1.160s] -- Configured cppcheck exclude dirs and/or files: 
+[1.161s] -- Added test 'lint_cmake' to check CMake code style
+[1.162s] -- Added test 'uncrustify' to check C / C++ code style
+[1.162s] -- Configured uncrustify additional arguments: 
+[1.163s] -- Added test 'xmllint' to check XML markup files
+[1.165s] -- Configuring done (1.1s)
+[1.199s] -- Generating done (0.0s)
+[1.220s] -- Build files have been written to: /home/haixin/ws02_tools/build/cpp04_tf_listener
+[1.236s] Invoked command in '/home/haixin/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws02_tools/src/cpp04_tf_listener -DCMAKE_INSTALL_PREFIX=/home/haixin/ws02_tools/install/cpp04_tf_listener
+[1.238s] Invoking command in '/home/haixin/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws02_tools/build/cpp04_tf_listener -- -j4 -l4
+[1.348s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_msg_filter.dir/src/demo02_msg_filter.cpp.o[0m
+[1.354s] [ 75%] Built target demo01_tf_listener
+[15.632s] [100%] [32m[1mLinking CXX executable demo02_msg_filter[0m
+[16.841s] [100%] Built target demo02_msg_filter
+[16.861s] Invoked command in '/home/haixin/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws02_tools/build/cpp04_tf_listener -- -j4 -l4
+[16.878s] Invoking command in '/home/haixin/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws02_tools/build/cpp04_tf_listener
+[16.892s] -- Install configuration: ""
+[16.893s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener
+[16.893s] -- Installing: /home/haixin/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter
+[16.905s] -- Set non-toolchain portion of runtime path of "/home/haixin/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter" to ""
+[16.905s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener
+[16.906s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener
+[16.906s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh
+[16.906s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv
+[16.906s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh
+[16.906s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv
+[16.906s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash
+[16.906s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh
+[16.906s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh
+[16.906s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv
+[16.906s] -- Installing: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv
+[16.907s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener
+[16.907s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake
+[16.907s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake
+[16.907s] -- Up-to-date: /home/haixin/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml
+[16.910s] Invoked command in '/home/haixin/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws02_tools/build/cpp04_tf_listener
